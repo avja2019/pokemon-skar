@@ -1,0 +1,42 @@
+.pokeinfo__img {
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    left: 50%;
+    background-color: white;
+    font-size: 24px;
+} 
+.pokeinfo__stats {
+    padding: 20px 40px;
+}
+.pokeinfo__stats-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pokeinfo__stats-item span:nth-child(2) {
+    justify-self: end;
+}
+.outbar {
+    grid-column: span 2;
+    border: 1px solid;
+    height: 20px;
+    width: 100%;
+}
+.inbar {
+    background-color: orange;
+    height: 100%;
+}
+

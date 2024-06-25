@@ -1,0 +1,25 @@
+.select-pokemon {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .select-pokemon option {
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .select-pokemon option:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .select-pokemon option:selected {
+    background-color: #ccc;
+    color: #333;
+  }

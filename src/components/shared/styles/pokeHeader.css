@@ -1,0 +1,42 @@
+.pokeheader {
+    width: 100%;
+}
+.pokeheader__red {
+    position: relative;
+    height: 60px;
+    background-color: red;
+}
+.pokeheader__img {
+    width: 260px;
+    position: absolute;
+    top: 15px;
+    left: 5%;
+}
+.pokeheader__black {
+    position: relative;
+    height: 30px;
+    background-color: black;
+}
+.pokeheader__outcircle {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    right: 10%;
+    width: 80px;
+    border: 7px solid black;
+    border-radius: 50%;
+    background-color: white;
+    aspect-ratio: 1; 
+}
+.pokeheader__incricle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    border: 7px solid black;
+    border-radius: 50%;
+    width: 40px;
+    aspect-ratio: 1;
+}

@@ -1,0 +1,35 @@
+.pokedex__wave {
+    font-size: 24px;
+    margin: 20px;
+}
+.pokedex__wave span {
+    color: red;
+}
+.pokedex__filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.pokedex__filters input {
+ padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.pokedex__filters button {
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.pokedex__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
